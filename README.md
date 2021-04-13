@@ -20,7 +20,7 @@
   </p>
 <p align="center"><img src="https://github.com/Ashish2030/Todo-List_Rest_API/blob/main/Todo_List_Rest_API/Video/video2.gif"></p>
 <p align="center">
-    <a href="https://ashish2030.github.io/Todo-List-Javascript/" target="blank">View Demo</a>
+    <a href="https://github.com/Ashish2030/Todo-List_Rest_API/tree/main/Todo_List_Rest_API" target="blank">View Demo</a>
     ·
     <a href="https://github.com/ashish2030/Todo-List_Rest_API/issues/new/choose">Report Bug</a>
     ·
