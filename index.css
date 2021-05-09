@@ -1,68 +1,105 @@
-span
-{
+
+span {
     margin-top: 20px;
     margin-left: 12px;
-    color:black;
-    display:inline-block; 
+    color: black;
+    display: inline-block;
 }
-#ashu
-{
+
+.div_r {
+    float: right;
+    display: block;
+}
+
+#ashu {
     border: 2px solid black;
-    width: 25%;
+    width: 28%;
     margin: auto;
     height: 70vh;
     background-color: #ccccff;
 }
-#p
-{
+
+#p {
     padding: 20px;
     text-align: center;
 }
-.a
-{
+
+.a {
     text-align: right;
 }
-button
-{
-    width:42%;
-    height:30px;
+
+#p button {
+    width: 40%;
+    height: 30px;
     background-color: #ffb76f;
 }
-hr
-{
- border-color: black;
- border: none;
- height: 1px;
- background: black;
+
+#temp {
+    background-color: #ffb76f;
 }
-p
-{
+
+hr {
+    border-color: black;
+    border: none;
+    height: 1px;
+    background: black;
+}
+
+p {
     padding: 0px;
 }
-button:hover
-{
+
+button:hover {
     cursor: pointer;
 }
-.p
-{
+
+.p {
     padding: 6px;
 }
-#append
-{
-    display: none;
 
-}
-.l
-{
+.l {
     text-align: center;
-     padding: 0%;
+    width: 80%;
+    color: black;
+    background-color: #98B4D4;
+    margin-bottom: 1em;
 }
-#append td
-{
+
+
+
+.mn {
+    background-color: #efe4b0;
+    color: black;
+    display: inherit;
+    width: 50px;
+}
+
+#append td {
     overflow: hidden;
-
 }
-.text-right{
+
+.m {
     text-align: center;
+    width: 80%;
+    background-color: #98B4D4;
+    margin-bottom: 1em;
 }
 
+table {
+    width: 100%;
+}
+
+table.fixed {
+    table-layout: fixed;
+}
+
+table.fixed td {
+    overflow: hidden;
+}
+
+th {
+    width: 50px;
+    text-align: center;
+    background-color: #ccccff;
+    margin-bottom: 1em;
+}
