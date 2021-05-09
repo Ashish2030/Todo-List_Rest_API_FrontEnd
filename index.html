@@ -7,29 +7,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<style> 
-    input[type=button] {
-      background-color: #f1e2ae;
-
-    }
-    </style>
-<body>
+<body onload="load()">
     <center>
-        <div id="ashu">
+        <div id="ashu" >
             <span >Details Form</span>
-            <hr  style="width:50%;text-align:left;margin-left:20% ">
-            <table>
+            <hr id="hr">
+            <table id="main">
                 <tr>
                     <td class="a">Name:</td>
-                    <td colspan="2"><input type="text" id="a" name="a" style="height:17px";  size="25%" required></td>
+                    <td colspan="2"><input type="text" id="a" size="25" name="a" required></td>
                 </tr>
                 <tr>
-                    <td class="a">Mob.No.:</td>
-                    <td><input type="text" name ="b" id="b" size="25" style="height:17px";  required></td>
+                    <td class="a">Mob No.</td>
+                    <td><input type="text" name ="b" id="b" size="25" required></td>
                 </tr>
                 <tr>
                     <td class="a">Email ID:</td>
-                    <td><input type="email" name="c" id="c" size="25" style="height:17px";  required></td>
+                    <td><input type="text" name="c" id="c" size="25" required></td>
                 </tr>
                 <tr>
                     <td colspan="2" id="p"><button  onclick="enable()">SUBMIT</Button></td>
@@ -37,18 +31,16 @@
         </table>
         <hr>
         
-        <table id="append" style="border-spacing: 7px;">
-        <tr>
-            <th class="p">Name</th>
-            <th class="p">Mob No.</th>
-            <th class="p">Email ID</th>
-            <th class="p"></th>
+        <table id="append">
+       	 <tr>
+             <th><input type='text' class='m' value="Name"></th>
+              <th><input type='text' class='m' value="Mob.No" ></th>
+              <th><input type='text' class='m' value="Email ID"></th>
+            <th></th>
         </tr>
-        </table>
+       </table>
     </div>
-    
     </center>
     <script src="index.js"></script>
-
 </body>
 </html>
