@@ -8,7 +8,7 @@ function enable() {
     else {
 
         var xhttp = new XMLHttpRequest();
-        xhttp.open("POST", "http://localhost:8080/posts", true);
+        xhttp.open("POST", "https://todo98123.herokuapp.com/posts", true);
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
 
@@ -29,7 +29,7 @@ function enable() {
 function load()
 {
     var xhttp1 = new XMLHttpRequest();
-    xhttp1.open("GET", "http://localhost:8080/posts", true);
+    xhttp1.open("GET", "https://todo98123.herokuapp.com/posts", true);
     xhttp1.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var list=JSON.parse(this.responseText);
@@ -79,7 +79,7 @@ function load()
 function deleteRow(r) {
     var i = r.parentNode.parentNode.rowIndex;
     var m = document.getElementById('append').rows[i].cells[0].innerHTML;
-    var url = "http://localhost:8080/posts/" + m;
+    var url = "https://todo98123.herokuapp.com/posts/" + m;
     console.log(url);
     var xhr = new XMLHttpRequest();
     xhr.open("DELETE", url, true);
