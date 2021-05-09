@@ -53,7 +53,7 @@ function load()
                 
                 temp2.innerHTML="<input type='text' class='l' value=" +list[i].name +" style= 'width:80px;  background-color: #c3c3c1; border:none;'>";
                 temp3.innerHTML="<input type='text' class='l' value=" + list[i].number+" style= 'width:80px;  background-color: #c3c3c1; border:none;'>";
-                temp4.innerHTML="<input type='text' class='l' value=" + list[i].email +" style= 'width:100px;  background-color: #c3c3c1; border:none;'>";
+                temp4.innerHTML="<input type='text' class='l' value=" + list[i].email +" style= 'width:80px;  background-color: #c3c3c1; border:none;'>";
                 temp5.innerHTML='<button style="background-color:#efe4b0;" onclick="deleteRow(this)">Delete</Button>'
                 
                 temp5.classList.add("k");
