@@ -29,6 +29,7 @@ span {
 }
 
 #p button {
+    
     width: 40%;
     height: 30px;
     background-color: #ffb76f;
@@ -41,7 +42,7 @@ span {
 hr {
     border-color: black;
     border: none;
-    height: 1px;
+    height: 2px;
     background: black;
 }
 
