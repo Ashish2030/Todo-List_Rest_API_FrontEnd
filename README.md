@@ -19,6 +19,10 @@
 </a>
   </p>
   
+ [![GitHub last commit](https://img.shields.io/github/last-commit/ashish2030/Todo-List_Rest_API_FrontEnd)](https://github.com/ashish2030/Todo-List_Rest_API_FrontEnd/commits/master)
+[![GitHub repo size](https://img.shields.io/github/repo-size/ashish2030/Todo-List_Rest_API_FrontEnd)](https://github.com/ashish2030/Todo-List_Rest_API_FrontEnd/archive/master.zip)
+
+  
 https://user-images.githubusercontent.com/61516051/117699256-3c75a400-b1e2-11eb-867f-fcfc182b0032.mp4
 
 
