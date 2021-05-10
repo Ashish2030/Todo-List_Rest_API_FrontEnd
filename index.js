@@ -37,6 +37,7 @@ function load()
             var temp=document.getElementById('append');
             var count=1;
               for (var i = 0; i < list.length; i++) {
+                  count++;
                 var table = document.createElement('tr');
                 var temp22 = document.createElement('td');
                 var temp2 = document.createElement('td');
@@ -69,7 +70,14 @@ function load()
             }
          
          
+                  if(count==1)
+            {
+                temp.style.display="none";
+            }
+            else
+            {
                 temp.style.display="block";
+            }
            
         }
     };
