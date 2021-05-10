@@ -18,7 +18,10 @@
 <img src="https://img.shields.io/github/issues-pr/ashish2030/Todo-List_Rest_API_Frontend?style=flat-square" alt="Todo-List_Rest_API"/>
 </a>
   </p>
-<p align="center"><img src="https://github.com/Ashish2030/Todo-List_Rest_API_Frontend/blob/main/Todo_List_Rest_API/Video/video2.gif"></p>
+  
+https://user-images.githubusercontent.com/61516051/117699256-3c75a400-b1e2-11eb-867f-fcfc182b0032.mp4
+
+
 <p align="center">
     <a href="https://github.com/Ashish2030/Todo-List_Rest_API_Frontend/tree/main/Todo-List_Rest_API_Frontend" target="blank">View Demo</a>
     ·
